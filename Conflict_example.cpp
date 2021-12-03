@@ -1,18 +1,18 @@
 #include <iostream>
 using namespace std;
 
-string Conflict_happening (string s) ////Hi Hi~ I've been changed like this.
+string Conflict_example_1(string s)
 {
     //還回字串值
-    string rv = "Hi Hi~ a Conflict " + s + "\n";
+    string rv = "give back " + s + "\n";
     return rv;
 }
 
 int main()
-{   
-    /*"Conflict_happening"*/
-    string str = "Let's go to test the GitHub Conflict Condition!"; //Hi Hi~ I've been changed like this.
-    /*a new line*/
+{
+    cout << "Hello GitHub!" << endl;
+    string s = "Let's go to test the GitHub Conflict Condition!";
     cout << Conflict_example_1(s);
     return 0;
 }
+
