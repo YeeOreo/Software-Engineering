@@ -10,7 +10,7 @@ string Conflict_happening (string s) ////Hi Hi~ I've been changed like this.
 
 int main()
 {   
-    /*"Conflict_happening"*/
+    /*"Conflict_happening 2!!!!!!!"*/
     string str = "Let's go to test the GitHub Conflict Condition!"; //Hi Hi~ I've been changed like this.
     /*a new line*/
     cout << Conflict_example_1(s);
