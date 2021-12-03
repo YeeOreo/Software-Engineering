@@ -9,9 +9,10 @@ string Conflict_example_1(string s)
 }
 
 int main()
-{
-    cout << "Hello GitHub!" << endl;
-    string s = "Let's go to test the GitHub Conflict Condition!";
+{   
+    /*"Conflict_happening 1!!!"*/
+    string str = "Let's go to test the GitHub Conflict Condition!"; //Hi Hi~ I've been changed like this.
+    /*a new line*/
     cout << Conflict_example_1(s);
     return 0;
 }
